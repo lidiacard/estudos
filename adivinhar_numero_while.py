@@ -1,3 +1,8 @@
+# EXERCÍCIO: Jogo de Adivinhação
+# O programa gera um número aleatório entre 1 e 10. O usuário tenta adivinhar o número,
+# recebendo dicas de "maior" ou "menor" até acertar. O número de tentativas é contado.
+# Utiliza as bibliotecas 'random' para gerar o número e 'time' para pausas entre as tentativas.
+
 from random import randint
 from time import sleep
 

@@ -1,3 +1,11 @@
+# EXERCÍCIO: Cadastro e Levantamento de Gols de Jogadores
+# O programa cadastra jogadores, registra gols por partida, calcula o total de gols e permite consultas detalhadas.
+# Funcionalidades:
+# 1. Cadastro de jogadores e gols por partida.
+# 2. Exibição dos dados de todos os jogadores.
+# 3. Consulta detalhada de jogador específico.
+# 4. Continua até o usuário decidir parar.
+
 jogadores = []
 
 while True:
@@ -24,14 +32,14 @@ while True:
         break
 
 print(30 * '==')
-print(f'{"cod ":<5}{"nome":<15}{"gols":<15}{"total":<6}')
+print(f'{'cod ':<5}{'nome':<15}{'gols':<15}{'total':<6}')
 for num, jogador in enumerate(jogadores):
-    print(f'{num+1:<5}{jogador["nome"]:<15}{str(jogador["gols por partida"]):<15}{jogador["total"]:<6}')
+    print(f'{num+1:<5}{jogador['nome']:<15}{str(jogador['gols por partida']):<15}{jogador['total']:<6}')
 while True:
     try:
         qual_jogador = int(input('Mostrar dados de qual jogador? (cod) | 999 para parar: '))
     except ValueError:
-        print("Por favor, insira um número válido!")
+        print('Por favor, insira um número válido!')
         continue
     if qual_jogador == 999:
         print('<< VOLTE SEMPRE! >>')

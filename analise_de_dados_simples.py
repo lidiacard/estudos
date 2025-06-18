@@ -1,3 +1,13 @@
+# EXERCÍCIO: Cadastro de Pessoas
+# Objetivo: O programa solicita o cadastro de várias pessoas, coletando:
+# 1. Idade e sexo (F ou M).
+# 2. Calcula o total de pessoas com mais de 18 anos.
+# 3. Conta quantos homens foram cadastrados.
+# 4. Conta quantas mulheres têm menos de 20 anos.
+# 
+# O programa permite a inserção de dados de várias pessoas até que o usuário
+# escolha finalizar o cadastro.
+
 maiordeidade = tot_homens = mulheres_menos20 = 0
 while True:
     print(30 * '-')

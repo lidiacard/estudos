@@ -1,6 +1,7 @@
-"""Faça um programa que leia 5 valores numéricos e guarde-os em uma lista. No final,
- mostre qual foi o maior e o menor valor digitado e as suas respectivas posições na 
- lista."""
+# EXERCÍCIO: Maior e Menor Valor
+# Objetivo: O programa recebe 5 números do usuário, armazena em uma lista e, 
+# depois, exibe o maior e o menor valor digitado, além das posições em que 
+# esses valores se encontram na lista.
 
 valores = []
 maiorvalor = 0

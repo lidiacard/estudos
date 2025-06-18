@@ -1,3 +1,11 @@
+# EXERCÍCIO: Controle de Compras de Loja
+# Objetivo: O programa simula uma loja onde o usuário cadastra produtos com seus valores e:
+# 1. Calcula o total da compra.
+# 2. Conta quantos produtos custam mais de R$1000,00.
+# 3. Identifica o produto mais barato.
+# 
+# O programa permite o cadastro de múltiplos produtos e termina quando o usuário opta por sair.
+
 print(30 * '-')
 print('LOJA YOUGO'.center(30))
 print(30 * '-')
@@ -5,6 +13,7 @@ print(30 * '-')
 somavalores = valormaisbarato = valor = prod_mil = 0
 cont = 1
 nome_maisbarato = ''
+
 while True:
     produto = input('Nome do produto: ')
     valor = float(input('Valor do produto: R$'))

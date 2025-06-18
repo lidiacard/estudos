@@ -1,3 +1,9 @@
+# EXERCÍCIO: Jogo de Pedra, Papel e Tesoura
+# O programa simula um jogo de Pedra, Papel e Tesoura entre o usuário e o computador.
+# O jogador escolhe uma das opções, o computador escolhe aleatoriamente, e o resultado
+# (vitória, derrota ou empate) é exibido com base nas regras do jogo.
+# A escolha do jogador é comparada com a do computador e o vencedor é determinado.
+
 import random
 from time import sleep
 VERDE = '\033[32m'

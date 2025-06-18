@@ -1,3 +1,8 @@
+# EXERCÍCIO: Analisador de Triângulos
+# Objetivo: O programa verifica se três valores informados podem formar um triângulo 
+# e, caso possam, determina o tipo de triângulo (Equilátero, Isósceles ou Escaleno).
+# Utiliza as propriedades dos triângulos e condições (if) para classificar os lados.
+
 print('---- ANALISADOR DE TRIÂNGULOS ----')
 r1 = float(input('Digite o comprimento do 1ª lado: '))
 r2 = float(input('Digite o comprimento do 2ª lado: '))

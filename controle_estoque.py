@@ -1,3 +1,12 @@
+# EXERCÍCIO: Controle de estoque de produtos
+# Este programa gerencia um estoque de produtos, permitindo:
+# - Adicionar e remover produtos
+# - Atualizar quantidade e preço
+# - Exibir informações sobre um produto
+# - Mostrar o inventário completo
+# - Calcular o valor total do estoque
+# O menu oferece as opções de interação com o sistema.
+
 import os
 
 produtos = {

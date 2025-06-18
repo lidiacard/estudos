@@ -1,3 +1,12 @@
+# EXERCÍCIO: Análise de Idades e Sexo
+# Objetivo: O programa solicita dados de 4 pessoas (nome, idade e sexo) e realiza as seguintes análises:
+# 1. Calcula a média de idade das pessoas.
+# 2. Identifica o homem mais velho.
+# 3. Conta quantas mulheres têm menos de 20 anos.
+# 
+# Utiliza estruturas de repetição (for) e condicionais (if) para processar os dados.
+
+
 soma_idade = mais_velho = mulheres_menores = 0
 
 for c in range (1, 5):

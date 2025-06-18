@@ -1,3 +1,11 @@
+# EXERCÍCIO: Classificação do Brasileirão
+# Objetivo: O programa exibe a classificação de times da Série A do Campeonato Brasileiro.
+# Ele mostra:
+# 1. Os 5 primeiros colocados.
+# 2. Os 4 últimos colocados.
+# 3. A lista dos times em ordem alfabética.
+# 4. A posição do time "Juventude".
+
 print('====== BRASILEIRÃO SÉRIE A ======')
 tabela = ('Flamengo', 'Botafogo', 'Palmeiras', 'Bahia', 'São Paulo', 'Cruzeiro',
            'Athletico-PR', 'Fortaleza', 'Bragantino', 'Vasco Da Gama', 'Internacional', 

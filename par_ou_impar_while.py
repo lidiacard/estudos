@@ -1,3 +1,9 @@
+# EXERCÍCIO: Jogo de Par ou Ímpar
+# O programa simula um jogo entre o usuário e o computador. O usuário escolhe um número 
+# e se decide por "par" ou "ímpar", o computador escolhe outro número aleatório.
+# O vencedor é determinado pela soma dos dois números e se o total é par ou ímpar.
+# O jogo continua até o usuário perder.
+
 from random import randint
 venceu = 0
 while True:

@@ -1,3 +1,13 @@
+# EXERCÍCIO: Cadastro de Desempenho de Jogador
+# Objetivo: O programa cadastra as informações de um jogador, como nome, 
+# quantidade de partidas jogadas e gols feitos em cada partida. Ao final, 
+# exibe um relatório com o total de gols e detalhes por partida.
+#
+# Funcionalidades:
+# 1. Solicita o nome do jogador e a quantidade de partidas jogadas.
+# 2. Solicita a quantidade de gols em cada partida.
+# 3. Exibe o total de gols e a quantidade de gols por partida.
+
 jogador = {}
 gols = []
 

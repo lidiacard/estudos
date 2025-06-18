@@ -1,3 +1,7 @@
+# EXERCÍCIO: Contagem personalizada
+# O programa realiza contagens de números com início, fim e passo definidos pelo usuário.
+# Caso o passo seja 0 ou negativo, o programa ajusta automaticamente o valor.
+
 from time import sleep
 
 def contador(inicio, fim, passo):

@@ -1,3 +1,7 @@
+# EXERCÍCIO: Função que encontra o maior valor
+# A função 'maior' recebe múltiplos números e imprime o maior valor informado.
+# O programa analisa os números passados e exibe o maior valor com o total de valores informados.
+
 from time import sleep
 
 def maior(*numeros):

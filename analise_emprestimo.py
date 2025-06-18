@@ -1,7 +1,7 @@
-# Escreva um programa para aprovar o empréstimo bancário
-# para a compra de uma casa. Pergunte o valor da casa, o salário do comprador
-# e em quantos anos ele vai pagar. A prestação mensal não pode exceder 30% do
-# salário ou então o empréstimo será negado.
+# EXERCÍCIO: Empréstimo bancário
+# O código simula uma análise de crédito para um empréstimo de financiamento de imóvel.
+# Se o valor da prestação for superior a 30% do salário do comprador, o empréstimo é negado.
+# Caso contrário, o empréstimo é aprovado.
 
 valor_casa = float(input('Qual o valor da casa? R$'))
 salario = float(input('Qual o salário do comprador? R$'))

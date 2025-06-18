@@ -1,6 +1,6 @@
-"""Crie um programa onde o usuário possa digitar vários valores numéricos e 
-cadastre-os em uma lista. Caso o número já exista lá dentro, ele não será adicionado.
- No final, serão exibidos todos os valores únicos digitados, em ordem crescente."""
+# EXERCÍCIO: Lista de Números Únicos
+# O programa recebe números inteiros do usuário, garantindo que não haja duplicatas.
+# A lista final é exibida em ordem crescente após o usuário decidir parar.
 
 numeros = []
 continuar = 'S'

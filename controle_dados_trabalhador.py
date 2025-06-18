@@ -1,3 +1,11 @@
+# EXERCÍCIO: Cadastro de Pessoa e Cálculo de Aposentadoria
+# Objetivo: O programa realiza o cadastro de uma pessoa, coletando informações como:
+# 1. Nome, idade e CTPS (Carteira de Trabalho e Previdência Social).
+# 2. Se a pessoa tem CTPS, o programa também solicita o ano de contratação e o salário.
+# 3. Calcula a idade de aposentadoria com base na regra de 35 anos de contribuição.
+# 
+# O programa exibe todas as informações cadastradas ao final.
+
 from datetime import datetime
 
 pessoa = {}

@@ -1,6 +1,6 @@
-"""Faça um programa que ajude um jogador da MEGA SENA a criar palpites.
-O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre
- 1 e 60 para cada jogo, cadastrando tudo em uma lista composta."""
+# EXERCÍCIO: Jogo Mega Sena
+# O programa sorteia uma quantidade de jogos para a Mega Sena, 
+# com 6 números diferentes entre 1 e 60 em cada jogo.
 
 from random import randint
 from time import sleep

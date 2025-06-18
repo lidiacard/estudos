@@ -1,3 +1,13 @@
+# EXERCÍCIO: Conversor de Números para Extenso
+# Objetivo: O programa permite ao usuário digitar um número entre 0 e 20 e 
+# retorna o número por extenso. O processo pode ser repetido até que o usuário
+# escolha encerrar.
+# 
+# Funcionalidades:
+# 1. Solicita ao usuário que insira um número entre 0 e 20.
+# 2. Exibe o número por extenso.
+# 3. O programa continua até o usuário optar por parar.
+
 continuar = 'S'
 while continuar == 'S':
     numeros = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis',

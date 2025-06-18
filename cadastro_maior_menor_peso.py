@@ -1,3 +1,6 @@
+# EXERCÍCIO: Cadastro de Pessoas e Identificação dos Maiores e Menores Pesos
+# O programa cadastra nome e peso, e identifica as pessoas com maior e menor peso.
+
 dados = []
 maispesados = []
 maisleves = []

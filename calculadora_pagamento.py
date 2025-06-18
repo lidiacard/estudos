@@ -1,3 +1,8 @@
+# EXERCÍCIO: Cálculo de Desconto e Juros para Pagamento
+# O programa calcula o valor final de um produto de acordo com a forma de pagamento.
+# Se for pago à vista, oferece desconto dependendo da forma de pagamento (cheque/dinheiro ou cartão).
+# Se for parcelado, aplica juros de 20% e mostra o valor das parcelas, dependendo do número de vezes.
+
 print(f"{'LOJAS MARIANO':=^40}")
 valor = float(input('Qual o valor do produto que deseja comprar? R$'))
 pagamento = str(input('O pagamento será á vista ou parcelado? \n[1] Á vista\n[2] Parcelado\n '))

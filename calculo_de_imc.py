@@ -1,3 +1,11 @@
+# EXERCÍCIO: Cálculo do IMC
+# O programa calcula o IMC com base no peso e altura da pessoa, e classifica o resultado em faixas:
+# 1. Abaixo do peso
+# 2. Peso ideal
+# 3. Sobrepeso
+# 4. Obesidade
+# 5. Obesidade mórbida
+
 peso = float(input('Qual seu peso? '))
 altura = float(input('Qual sua altura? '))
 imc = peso / (altura ** 2)

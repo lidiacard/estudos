@@ -1,3 +1,7 @@
+# EXERCÍCIO: Matriz 3x3 com Cálculos
+# O programa preenche uma matriz 3x3, calcula a soma dos valores pares, 
+# a soma dos valores da terceira coluna e o maior valor da segunda linha.
+
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 somapares = somaterceiracoluna = maior_segundalinha = 0
 for l in range(0,3):

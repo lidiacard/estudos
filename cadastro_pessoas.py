@@ -1,3 +1,11 @@
+# EXERCÍCIO: Cadastro de pessoas e análise de dados
+# O código permite cadastrar pessoas com nome, sexo e idade.
+# No final, é exibido:
+# - O total de pessoas cadastradas
+# - A média de idades
+# - O nome das mulheres cadastradas
+# - A lista de pessoas com idade acima da média
+
 lista_pessoas = [] 
 soma_idades = 0
 while True:
