@@ -36,7 +36,7 @@ def menu():
     print(10 * '=')
 
 
-def comandoOuTarefa(dados):
+def comando_ou_tarefa(dados):
     """
     Lê a entrada do usuário e executa o comando correspondente ou adiciona uma nova tarefa.
     Retorna False se o comando for 'sair', para encerrar o programa.
@@ -48,11 +48,11 @@ def comandoOuTarefa(dados):
     
     if opcao in ['listar', 'desfazer', 'refazer', 'sair']:
         if opcao == 'listar':
-            listarTarefas(dados)
+            listar_tarefas(dados)
         elif opcao == 'desfazer':
-            desfazerTarefa(dados)
+            desfazer_tarefa(dados)
         elif opcao == 'refazer':
-            refazerTarefa(dados)
+            refazer_tarefa(dados)
         elif opcao == 'sair':
             print('Saindo...')
             return False
@@ -63,7 +63,7 @@ def comandoOuTarefa(dados):
     return True
 
 
-def listarTarefas(dados):
+def listar_tarefas(dados):
     """
     Lista todas as tarefas atualmente salvas.
     Se não houver tarefas, exibe mensagem.
@@ -76,7 +76,7 @@ def listarTarefas(dados):
         print('Não há tarefas na lista.')
 
 
-def desfazerTarefa(dados):
+def desfazer_tarefa(dados):
     """
     Remove a última tarefa adicionada da lista 'lista' e adiciona na lista 'removidas' para possível refazer.
     Se não houver tarefas para desfazer, informa o usuário.
@@ -90,7 +90,7 @@ def desfazerTarefa(dados):
         print('Nada a desfazer.')
 
 
-def refazerTarefa(dados):
+def refazer_tarefa(dados):
     """
     Refaz a última tarefa que foi desfeita, movendo-a da lista 'removidas' para 'lista'.
     Se não houver tarefas para refazer, informa o usuário.
@@ -108,5 +108,6 @@ dados = carregar_arquivo()
 # Loop principal do programa, exibe menu e processa comandos até o usuário sair
 while True:
     menu()
-    if not comandoOuTarefa(dados):
+    if not comando_ou_tarefa(dados):
         break
+    
